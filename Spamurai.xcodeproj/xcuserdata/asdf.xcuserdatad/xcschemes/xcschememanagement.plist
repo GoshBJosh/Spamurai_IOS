@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CustomCallDirectoryExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Spamurai.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>CC1FF62D20369C5B0010B65D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9040802039530A0013A284</key>
 		<dict>
 			<key>primary</key>
 			<true/>
