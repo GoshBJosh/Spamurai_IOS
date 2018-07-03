@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CustomCallDirectoryExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Spamurai.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CC1FF60E20369C5B0010B65D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC1FF62220369C5B0010B65D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC1FF62D20369C5B0010B65D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CC9040802039530A0013A284</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
