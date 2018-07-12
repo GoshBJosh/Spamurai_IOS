@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5A06C0D20F03C260074FE06 /* H1_Font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5A06C0C20F03C260074FE06 /* H1_Font.ttf */; };
 		CC1FF61320369C5B0010B65D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FF61220369C5B0010B65D /* AppDelegate.swift */; };
 		CC1FF61520369C5B0010B65D /* Main_ ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FF61420369C5B0010B65D /* Main_ ViewController.swift */; };
 		CC1FF61820369C5B0010B65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC1FF61620369C5B0010B65D /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		CC1FF62820369C5B0010B65D /* SpamuraiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FF62720369C5B0010B65D /* SpamuraiTests.swift */; };
 		CC1FF63320369C5B0010B65D /* SpamuraiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1FF63220369C5B0010B65D /* SpamuraiUITests.swift */; };
 		CC9040842039530B0013A284 /* CallDirectoryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9040832039530B0013A284 /* CallDirectoryHandler.swift */; };
-		CCC71DFF2040AD1100744C8F /* H1_Font.TTF in Resources */ = {isa = PBXBuildFile; fileRef = CCC71DFE2040AD1100744C8F /* H1_Font.TTF */; };
 		CCE8591D20432E6300157EBB /* About_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE8591C20432E6300157EBB /* About_ViewController.swift */; };
 		CCEA4CD920EB0C360080203B /* AskWhatSheWants_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA4CD820EB0C360080203B /* AskWhatSheWants_ViewController.swift */; };
 		CCEA4CDD20EBEBC80080203B /* SneakPast_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCEA4CDC20EBEBC80080203B /* SneakPast_ViewController.swift */; };
@@ -58,6 +58,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C5A06C0C20F03C260074FE06 /* H1_Font.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = H1_Font.ttf; sourceTree = "<group>"; };
 		CC1FF60F20369C5B0010B65D /* Spamurai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spamurai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC1FF61220369C5B0010B65D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC1FF61420369C5B0010B65D /* Main_ ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main_ ViewController.swift"; sourceTree = "<group>"; };
@@ -74,7 +75,6 @@
 		CC9040812039530A0013A284 /* CustomCallDirectoryExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomCallDirectoryExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC9040832039530B0013A284 /* CallDirectoryHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallDirectoryHandler.swift; sourceTree = "<group>"; };
 		CC9040852039530B0013A284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CCC71DFE2040AD1100744C8F /* H1_Font.TTF */ = {isa = PBXFileReference; lastKnownFileType = folder; name = H1_Font.TTF; path = ../H1_Font.TTF; sourceTree = "<group>"; };
 		CCE8591C20432E6300157EBB /* About_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About_ViewController.swift; sourceTree = "<group>"; };
 		CCEA4CD820EB0C360080203B /* AskWhatSheWants_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskWhatSheWants_ViewController.swift; sourceTree = "<group>"; };
 		CCEA4CDC20EBEBC80080203B /* SneakPast_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SneakPast_ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +118,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5A06C0920F03ACE0074FE06 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C5A06C0C20F03C260074FE06 /* H1_Font.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		CC1FF60620369C5A0010B65D = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +151,7 @@
 		CC1FF61120369C5B0010B65D /* Spamurai */ = {
 			isa = PBXGroup;
 			children = (
+				C5A06C0920F03ACE0074FE06 /* Fonts */,
 				CC1FF61220369C5B0010B65D /* AppDelegate.swift */,
 				CC1FF61420369C5B0010B65D /* Main_ ViewController.swift */,
 				CCE8591C20432E6300157EBB /* About_ViewController.swift */,
@@ -158,7 +167,6 @@
 				CC1FF61920369C5B0010B65D /* Assets.xcassets */,
 				CC1FF61B20369C5B0010B65D /* LaunchScreen.storyboard */,
 				CC1FF61E20369C5B0010B65D /* Info.plist */,
-				CCC71E002040AE4D00744C8F /* Support Files */,
 			);
 			path = Spamurai;
 			sourceTree = "<group>";
@@ -188,14 +196,6 @@
 				CC9040852039530B0013A284 /* Info.plist */,
 			);
 			path = CustomCallDirectoryExtension;
-			sourceTree = "<group>";
-		};
-		CCC71E002040AE4D00744C8F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CCC71DFE2040AD1100744C8F /* H1_Font.TTF */,
-			);
-			name = "Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +284,9 @@
 				TargetAttributes = {
 					CC1FF60E20369C5B0010B65D = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7TWT43FLRU;
 						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 					};
 					CC1FF62220369C5B0010B65D = {
 						CreatedOnToolsVersion = 7.3;
@@ -330,8 +332,8 @@
 			files = (
 				CC1FF61D20369C5B0010B65D /* LaunchScreen.storyboard in Resources */,
 				CC1FF61A20369C5B0010B65D /* Assets.xcassets in Resources */,
+				C5A06C0D20F03C260074FE06 /* H1_Font.ttf in Resources */,
 				CC1FF61820369C5B0010B65D /* Main.storyboard in Resources */,
-				CCC71DFF2040AD1100744C8F /* H1_Font.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +464,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -484,6 +487,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = Spamurai;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -515,6 +519,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -530,6 +535,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE_SPECIFIER = Spamurai;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -541,10 +547,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7TWT43FLRU;
 				INFOPLIST_FILE = Spamurai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bgoshdigital.Spamurai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c19eaa82-34e3-4465-b41f-7988f4b1365d";
+				PROVISIONING_PROFILE_SPECIFIER = Spamurai;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -554,10 +566,16 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7TWT43FLRU;
 				INFOPLIST_FILE = Spamurai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bgoshdigital.Spamurai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c19eaa82-34e3-4465-b41f-7988f4b1365d";
+				PROVISIONING_PROFILE_SPECIFIER = Spamurai;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
